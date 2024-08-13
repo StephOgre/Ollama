@@ -13,7 +13,6 @@ cd ~/work/Ollama/
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python3 -m spacy download fr_core_news_lg
 python3 -m ipykernel install --user --name=venv --display-name "Python (.venv)"
 
 ./load_run_ollama.sh 
